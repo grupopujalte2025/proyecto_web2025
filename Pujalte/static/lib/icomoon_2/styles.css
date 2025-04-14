@@ -1,0 +1,238 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?7ay14y');
+  src:  url('fonts/icomoon.eot?7ay14y#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7ay14y') format('truetype'),
+    url('fonts/icomoon.woff?7ay14y') format('woff'),
+    url('fonts/icomoon.svg?7ay14y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-c_garcia:before {
+  content: "\e900";
+  color: #2b2e75;
+}
+.icon-Expocuba:before {
+  content: "\e901";
+}
+.icon-ferrocarriles:before {
+  content: "\e902";
+}
+.icon-historiador:before {
+  content: "\e903";
+}
+.icon-p_convenciones .path1:before {
+  content: "\e904";
+  color: rgb(14, 27, 141);
+}
+.icon-p_convenciones .path2:before {
+  content: "\e905";
+  margin-left: -2.982421875em;
+  color: rgb(239, 43, 47);
+}
+.icon-p_convenciones .path3:before {
+  content: "\e906";
+  margin-left: -2.982421875em;
+  color: rgb(14, 27, 141);
+}
+.icon-p_convenciones .path4:before {
+  content: "\e907";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path5:before {
+  content: "\e908";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path6:before {
+  content: "\e909";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path7:before {
+  content: "\e90a";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path8:before {
+  content: "\e90b";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path9:before {
+  content: "\e90c";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path10:before {
+  content: "\e90d";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path11:before {
+  content: "\e90e";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path12:before {
+  content: "\e90f";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path13:before {
+  content: "\e910";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path14:before {
+  content: "\e911";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path15:before {
+  content: "\e912";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path16:before {
+  content: "\e913";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path17:before {
+  content: "\e914";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path18:before {
+  content: "\e915";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path19:before {
+  content: "\e916";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path20:before {
+  content: "\e917";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path21:before {
+  content: "\e918";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path22:before {
+  content: "\e919";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path23:before {
+  content: "\e91a";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path24:before {
+  content: "\e91b";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path25:before {
+  content: "\e91c";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path26:before {
+  content: "\e91d";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path27:before {
+  content: "\e91e";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path28:before {
+  content: "\e91f";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path29:before {
+  content: "\e920";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path30:before {
+  content: "\e921";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path31:before {
+  content: "\e922";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path32:before {
+  content: "\e923";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path33:before {
+  content: "\e924";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-p_convenciones .path34:before {
+  content: "\e925";
+  margin-left: -2.982421875em;
+  color: rgb(0, 0, 0);
+}
+.icon-Palco .path1:before {
+  content: "\e926";
+  color: rgb(239, 43, 47);
+}
+.icon-Palco .path2:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(14, 27, 141);
+}
+.icon-Palco .path3:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(14, 27, 141);
+}
+.icon-Palco .path4:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(14, 27, 141);
+}
+.icon-Palco .path5:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(14, 27, 141);
+}
+.icon-Palco .path6:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(14, 27, 141);
+}
