@@ -1,0 +1,54 @@
+{% load i18n %}
+{% load static %}
+{% block content %}
+
+<!-- Team Start -->
+<div class="container-xxl py-2 mb-5">
+    <div class="container" id="team">
+      <div class="row g-5 align-items-end">
+        <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="ps-4" style="border-left:7px solid #FF7800;">
+            <h6 class="text-body text-uppercase mb-2 fw-bold pj-a">{% translate 'Nuestro Equipo' %}</h6>
+            <h1 class="display-6 mb-0 fw-bold pj-a">{% translate 'Especialistas Principales' %}</h1>
+          </div>
+        </div>
+        <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
+          <p class="mb-0" style="text-align: justify;font-size: 18px">
+            {% translate 'Contamos en nuestro equipo con Ingenieros Civiles, Arquitectos, Ingenieros Hidráulicos, Técnicos, económicos, asesores Jurídicos, en fin, todo un grupo que compartimos las mismas ideas e intereses.' %} 
+          </p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="team-item position-relative">
+            <img class="img-fluid" src="{% static 'img/team-3.jpg' %}" alt="" />
+            <div class="team-text">
+              <h5 class="text-white fw-bold">{% translate 'Nombre Completo' %}</h5>
+              <span class="fw-bold">{% translate 'Especialidad' %}</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="team-item position-relative">
+            <img class="img-fluid" src="{% static 'img/team-3.jpg' %}" alt="" />
+            <div class="team-text">
+              <h5 class="text-white fw-bold">{% translate 'Nombre Completo' %}</h5>
+              <span class="fw-bold">{% translate 'Especialidad' %}</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="team-item position-relative">
+            <img class="img-fluid" src="{% static 'img/team-3.jpg' %}" alt="" />
+            <div class="team-text">
+              <h5 class="text-white fw-bold">{% translate 'Nombre Completo' %}</h5>
+              <span class="fw-bold">{% translate 'Especialidad' %}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Team End -->
+
+  {% endblock %} 

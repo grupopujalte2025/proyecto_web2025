@@ -1,0 +1,160 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <title>PUJALTE S.U.R.L</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="{% static 'lib/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet"/>
+
+    <!-- Libraries Stylesheet -->
+    <link href="{% static 'lib/animate/animate.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'lib/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+    <link rel="stylesheet" href="{% static 'lib/icomoon/style.css' %}">
+    <link rel="stylesheet" href="{% static 'lib/icomoon_2/styles.css' %}">
+    <link href="{% static 'lib/aos/aos.css' %}">
+
+    <link href="{% static 'css/main.css' %}"  rel="stylesheet" />
+    <link href="{% static 'css/main2.css' %}"  rel="stylesheet" />
+  </head>
+
+  <body>
+
+    {% block content %}
+    
+    
+    {% endblock %}
+    
+    <!-- Footer Start -->
+    <div class="container-fluid footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s" style="background-color: #002350;" id="contactos">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h1 class="text-white mb-4">
+              <i class="bi bi-building text-primary me-3"></i>PUJALTE
+            </h1>
+            <p style="text-align:justify;">
+              {% translate 'Somos un grupo especializado en trabajos a grandes alturas y zonas de difícil acceso.' %}  
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-square btn-outline-primary me-1" href=""
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a class="btn btn-square btn-outline-primary me-1" href=""
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a class="btn btn-square btn-outline-primary me-1" href=""
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a class="btn btn-square btn-outline-primary me-0" href=""
+                ><i class="bi bi-envelope"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">{% translate 'Dirección' %}</h4>
+            <p>
+              <i class="bi bi-map-marker-alt me-3"></i>3ra y 96a, Playa, La Habana
+            </p>
+            <p><i class="bi bi-phone me-3"></i>+53 5-097 5772</p>
+            <p><i class="bi bi-envelope me-3"></i>grupopujalte@gmail.com</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Links</h4>
+            <a class="btn btn-link" href="#about">{% translate 'Nosotros' %}</a>
+            <a class="btn btn-link" href="#contactos">{% translate 'Contactos' %}</a>
+            <a class="btn btn-link" href="#servicios">{% translate 'Nuestros Servicios' %}</a>
+            <a class="btn btn-link" href="#">{% translate 'Terminos y Condiciones' %}</a>
+            <a class="btn btn-link" href="#">{% translate 'Soporte' %}</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">{% translate 'Contactenos' %}</h4>
+            <p>{% translate 'Envienos sus quejas ó Sugerencias.' %}</p>
+            <div class="position-relative mx-auto" style="overflow: hidden;max-width: 400px" id="footer-img">
+              <img class="img-fluid w-100" src="{% static 'img/bg.jpg' %}" alt=""/>
+            </div>
+            <style>
+                  #footer-img:hover{
+                    transform: scale(1.1);
+                    transition: all ease-in-out 0.3s;
+                    overflow: hidden;
+                  }
+            </style>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a href="#">PUJALTE S.U.R.L</a>, All Right Reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              {% translate 'Diseñado por' %} <a href="#">Pujalte.des</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top me-3"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <style>
+    .bi-arrow-up:hover{
+      color: #002350;
+    } 
+    </style>
+
+    <!-- JavaScript Libraries -->
+    <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'lib/wow/wow.min.js' %}"></script>
+    <script src="{% static 'lib/aos/aos.js' %}"></script>
+    <script src="{% static 'lib/easing/easing.min.js' %}"></script>
+    <script src="{% static 'lib/waypoints/waypoints.min.js' %}"></script>
+    <script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'lib/glightbox/js/glightbox.min.js' %}"></script>
+    <script src="{% static 'lib/isotope-layout/isotope.pkgd.min.js' %}"></script>
+
+    <!-- Template Javascript -->
+    <script src="{% static 'js/main.js' %}"></script>
+    <script src="{% static 'js/main2.js' %}"></script>
+  
+    <script>
+      AOS.init();
+    </script>
+  
+  </body>
+</html>

@@ -1,0 +1,47 @@
+{% load i18n %}
+{% load static %}
+{% block content %} 
+
+<!-- Topbar Start -->
+<div class="container-fluid p-0" style="background-color: #002350;" style="width: 100%;">
+    <div class="row gx-0 d-none d-lg-flex">
+      <div class="col-lg-7 px-5 text-start">
+        <div
+          class="h-100 d-inline-flex align-items-center px-3">
+          <small class="bi bi-megaphone-fill me-2" style="color: #FF7800;"></small>
+          <small class="text-white" style="color: #FF7800;">+53 5-097 5772</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-center px-3">
+          <small class="bi bi-envelope-open-fill me-2" style="color: #FF7800;"></small>
+          <small class="text-white" style="color: #FF7800;">grupopujalte@gmail.com</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-center px-3">
+          <small class="bi bi-clock-fill me-2" style="color: #FF7800;"></small>
+          <small class="text-white" style="color: #FF7800;">{% translate 'Lunes' %} - {% translate 'Viernes' %} : 09 AM - 05 PM</small>
+        </div>
+      </div>
+      <style>
+        .bi:hover{ color: #FF7800;}
+      </style>
+      
+      <div class="col-lg-5 px-5 text-end">
+        <div class="h-100 d-inline-flex align-items-center">
+          <a class="btn btn-square" href=""
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a class="btn btn-square" href=""
+            ><i class="bi bi-twitter-x"></i
+          ></a>
+          <a class="btn btn-square" href=""
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a class="btn btn-square" href=""
+            ><i class="bi bi-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+</div>
+  <!-- Topbar End -->
+
+  {% endblock %}  

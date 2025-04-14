@@ -1,0 +1,198 @@
+{% load i18n %}
+{% load static %}
+{% block content %}
+
+<!-- ======= Our Projects Section ======= -->
+<section id="projectos" class="projects mt-5 pt-5">
+    <div class="container" data-aos="fade-up">
+
+      <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="ps-4 mb-5" style="border-left:7px solid #FF7800;">
+          <h6 class="text-body text-uppercase mb-2 pj-a fw-bold">{% translate 'Nuestro trabajo' %}</h6>
+          <h1 class="display-6 mb-0 pj-a fw-bold">{% translate 'Nuestros Principales Proyectos' %}</h1>
+        </div>
+      </div>
+      
+      <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
+        data-portfolio-sort="original-order">
+
+        <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active fs-5">{% translate 'Todos' %}</li>
+          <li data-filter=".filter-remodeling"class="fs-5">{% translate 'Mantenimiento' %}</li>
+          <li data-filter=".filter-construction"class="fs-5">{% translate 'Construcción' %}</li>
+          <li data-filter=".filter-repairs"class="fs-5">{% translate 'Reparación' %}</li>
+          <li data-filter=".filter-design"class="fs-5">{% translate 'Montaje' %}</li>
+        </ul><!-- End Projects Filters -->
+
+        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+            <div class="portfolio-content h-100">
+              <img src="{% static 'img/projects/m1.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% translate 'Mantenimiento' %}</h4>
+                <a href="{% static 'img/projects/m1.jpg' %}" title="{% translate 'Mantenimiento' %}"
+                  data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <!-- <a href="" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-content h-100">
+              <img src="{% static 'img/projects/c1.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% translate 'Construcción' %}</h4>
+                <a href="{% static 'img/projects/c1.jpg' %}" title="{% translate 'Construcción' %}"
+                  data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <!-- <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+            <div class="portfolio-content h-100">
+              <img src="{% static 'img/projects/reparar-1.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% translate 'Reparación' %}</h4>
+                <a href="{% static 'img/projects/reparar-1.jpg' %}" title="{% translate 'Reparación' %}" data-gallery="portfolio-gallery-repairs"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <!-- <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+            <div class="portfolio-content h-100">
+              <img src="{% static 'img/projects/j1.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% translate 'Montaje' %}</h4>
+                <a href="{% static 'img/projects/j1.jpg' %}" title="{% translate 'Montaje' %}" data-gallery="portfolio-gallery-book"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <!-- <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+            <div class="portfolio-content h-100">
+              <img src="{% static 'img/projects/m2.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% translate 'Mantenimiento' %}</h4>
+                <a href="{% static 'img/projects/m2.jpg' %}" title="{% translate 'Mantenimiento' %}"
+                  data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <!-- <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-content h-100">
+              <img src="{% static 'img/projects/c2.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% translate 'Construcción' %}</h4>
+                <a href="{% static 'img/projects/c2.jpg' %}" title="{% translate 'Construcción' %}"
+                  data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <!-- <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+            <div class="portfolio-content h-100">
+              <img src="{% static 'img/projects/reparar-2.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% translate 'Reparación' %}</h4>
+                <a href="{% static 'img/projects/reparar-2.jpg' %}" title="{% translate 'Reparación' %}" data-gallery="portfolio-gallery-repairs"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <!-- <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+            <div class="portfolio-content h-100">
+              <img src="{% static 'img/projects/j2.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% translate 'Montaje' %}</h4>
+                <a href="{% static 'img/projects/j2.jpg' %}" title="{% translate 'Montaje' %}" data-gallery="portfolio-gallery-book"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <!-- <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+            <div class="portfolio-content h-100">
+              <img src="{% static 'img/projects/m3.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% translate 'Mantenimiento' %}</h4>
+                <a href="{% static 'img/projects/m3.jpg' %}" title="{% translate 'Mantenimiento' %}"
+                  data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <!-- <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-content h-100">
+              <img src="{% static 'img/projects/c3.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% translate 'Construcción' %}</h4>
+                <a href="{% static 'img/projects/c3.jpg' %}" title="{% translate 'Construcción' %}"
+                  data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <!-- <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+            <div class="portfolio-content h-100">
+              <img src="{% static 'img/projects/reparar-3.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% translate 'Reparación' %}</h4>
+                <a href="{% static 'img/projects/reparar-3.jpg' %}" title="{% translate 'Reparación' %}" data-gallery="portfolio-gallery-repairs"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <!-- <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+            <div class="portfolio-content h-100">
+              <img src="{% static 'img/projects/j3.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{% translate 'Montaje' %}</h4>
+                <a href="{% static 'img/projects/j3.jpg' %}" title="{% translate 'Montaje' %}" data-gallery="portfolio-gallery-book"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <!-- <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+        </div><!-- End Projects Container -->
+
+      </div>
+
+    </div>
+  </section><!-- End Our Projects Section -->
+
+  {% endblock %} 

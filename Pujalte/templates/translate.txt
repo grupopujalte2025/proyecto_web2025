@@ -1,0 +1,335 @@
+msgid "Acerca de Nosotros"
+msgstr "About Us"
+
+#: .\templates\about.html:26
+msgid "Grupo Pujalte!"
+msgstr ""
+
+#: .\templates\about.html:30
+msgid ""
+"Somos un grupo especializado en trabajos a grandes alturas y zonas de "
+"difícil acceso. Entre nuestro principales servicios se encuentra el "
+"mantenimiento preventivo y correctivo utilizando técnicas de alpinismo "
+"adaptadas a medios urbanos e industriales. Este equipo cuenta con "
+"profesionales de experiencia que ejecutan tareas con calidad y seguridad en "
+"sitios donde las técnicas tradicionales serian demasiado riesgosas."
+msgstr ""
+Pujalte is a group specialized in works at high altitudes and in difficult-to-access areas. Its main services include preventive and corrective maintenance using mountaineering techniques adapted to urban and industrial environments.This group has experienced professionals who perform tasks with quality and safety in locations where traditional techniques would be too risky."
+
+#: .\templates\base.html:63
+msgid ""
+"Somos un grupo especializado en trabajos a grandes alturas y zonas de "
+"difícil acceso."
+msgstr ""
+"We are a group specialized in work at great heights and hard-to-reach areas."
+
+#: .\templates\base.html:81
+msgid "Dirección"
+msgstr "Direction"
+
+#: .\templates\base.html:90 .\templates\navbar.html:36
+#: .\templates\navbar_video.html:38
+msgid "Nosotros"
+msgstr "Us"
+
+#: .\templates\base.html:91 .\templates\navbar.html:51
+#: .\templates\navbar_video.html:53
+msgid "Contactos"
+msgstr "Contacts"
+
+#: .\templates\base.html:92 .\templates\home.html:160
+#: .\templates\navbar.html:37 .\templates\navbar_video.html:39
+msgid "Nuestros Servicios"
+msgstr "Our Servies"
+
+#: .\templates\base.html:93
+msgid "Terminos y Condiciones"
+msgstr "Terms & Conditions"
+
+#: .\templates\base.html:94
+msgid "Soporte"
+msgstr "Support"
+
+#: .\templates\base.html:97 .\templates\home.html:278
+msgid "Contactenos"
+msgstr "Contact us"
+
+#: .\templates\base.html:98
+#, fuzzy
+#| msgid "Envienos su Sugerencia"
+msgid "Envienos sus quejas ó Sugerencias."
+msgstr "Send us your suggestion"
+
+#: .\templates\base.html:120
+msgid "Diseñado por"
+msgstr "Designed by"
+
+#: .\templates\carousel.html:18
+msgid "Desde los Cimientos hasta las Alturas"
+msgstr "From the foundations to the heights"
+
+#: .\templates\carousel.html:21 .\templates\carousel.html:41
+msgid "Más detalles"
+msgstr "More Details"
+
+#: .\templates\carousel.html:38
+msgid "Justo lo que Usted se merece!"
+msgstr "Just what you deserve!"
+
+#: .\templates\home.html:31
+msgid "Traducir"
+msgstr "Translate"
+
+#: .\templates\home.html:49
+msgid "Experiencia"
+msgstr "Experience"
+
+#: .\templates\home.html:58
+msgid "Profecionalidad"
+msgstr "Professionalism"
+
+#: .\templates\home.html:67
+msgid "Seguridad"
+msgstr "Safety"
+
+#: .\templates\home.html:76
+msgid "Calidad"
+msgstr "Quality"
+
+#: .\templates\home.html:90
+msgid "Por Que Nosotros!"
+msgstr "Why Us"
+
+#: .\templates\home.html:92
+msgid "Nuestra Especialización"
+msgstr "Our Expertise"
+
+#: .\templates\home.html:96 .\templates\home.html:284
+msgid ""
+"Aspiramos a convertirnos en líder del sector constructivo a nivel nacional y "
+"prestar un servicio de excelencia a clientes tanto nacionales como "
+"extranjeros. Para que esta aspiración se concrete debe arraigarse una "
+"cultura organizacional que responda a los objetivos estratégicos a través de "
+"un sistema de comunicación eficiente y una imagen que soporte y refuerce la "
+"realidad de la institución."
+msgstr ""
+Pujalte aspires to become a leader in the construction sector nationwide and provide excellent service to both domestic and international clients. To achieve this aspiration, an organizational culture must be established that responds to strategic objectives through an efficient communication system and an image that supports and reinforces the institution's reality."
+
+#: .\templates\home.html:102
+msgid "Largo número de servicios proveidos."
+msgstr "Large number of services provided."
+
+#: .\templates\home.html:110
+msgid "14+ Años de Experiencia Profesional."
+msgstr "14+ Years of Professional Experience."
+
+#: .\templates\home.html:118
+msgid "Gran número de Clientes satisfechos."
+msgstr "Large number of satisfied customers."
+
+#: .\templates\home.html:126
+msgid "Excelente relación Calidad precios."
+msgstr "Excellent value for money."
+
+#: .\templates\home.html:162
+msgid "Construcción, Reparación y Mantenimiento con soluciones Innovadoras."
+msgstr "Construction, Repair and Maintenance with Innovative Solutions."
+
+#: .\templates\home.html:166
+msgid ""
+"Dada nuestra experiencia en los trabajos en las alturas, contamos con una "
+"variada gama de servicios, incluyendo el cálculo de los materiales y "
+"presupuestos con los que   se   debe   contar   para   la   realización   "
+"de   los   mismos. Poseemos, además  capacidad ilimitada para adaptarnos a "
+"cualquier circunstancia a la hora de realizar nuestras labores, no "
+"invadiendo el espacio donde se prestan los servicios o el poder de   uso   "
+"de   las   edificaciones, objetos   u   otros.   Nuestro   personal  está "
+"calificado para sortear las dificultades que se nos presenten en nuestro "
+"quehacer diario, contando siempre con la aprobación del cliente en los "
+"cambios o modificaciones necesarios."
+msgstr ""
+Given our experience in working at heights, we offer a wide range of services, including material calculations and budgets required for the project. We also have unlimited capacity to adapt to any circumstance when performing our work, without invading the space where services are provided or the use of buildings, objects, etc.Our staff is qualified to overcome any difficulties that arise in our daily work, always obtaining the client's approval for any necessary changes or modifications."
+
+#: .\templates\home.html:175
+msgid "Fregado de todo tipo de Superficies."
+msgstr "Scrubbing of all types of surfaces."
+
+#: .\templates\home.html:183
+msgid "Trabajos en Silos."
+msgstr "Silo Work."
+
+#: .\templates\home.html:191
+msgid "Reparación de fachadas y superficies altas."
+msgstr "Repairing Facades and High Surfaces."
+
+#: .\templates\home.html:199
+msgid ""
+"Limpieza de la superficie con agua a  Pintura de superficie presión y "
+"pintura exterior."
+msgstr ""
+Surface cleaning with water and pressure.Surface painting and exterior painting.
+
+#: .\templates\home.html:207
+msgid "Trabajos en Faros marítimos ."
+msgstr "Lighthouse Work."
+
+#: .\templates\home.html:215
+msgid "Reparación y pintura de todo tipo de estructuras."
+msgstr "Repair and painting of all types of structures."
+
+#: .\templates\home.html:223 .\templates\home.html:247
+msgid "Impermeabilización de Cubiertas."
+msgstr "Roof Waterproofing."
+
+#: .\templates\home.html:231 .\templates\home.html:255
+msgid "Reparación y pintura de tanques elevados."
+msgstr "Repair and painting of elevated tanks."
+
+#: .\templates\home.html:239 .\templates\home.html:263
+msgid "Trabajos en carteles, vallas y otros."
+msgstr "Work on signs, billboards, and other items."
+
+#: .\templates\home.html:280
+msgid "Una Compañía a su Servicio"
+msgstr "A Company at Your Service"
+
+#: .\templates\home.html:297
+msgid "Su nombre"
+msgstr "Name"
+
+#: .\templates\home.html:308
+msgid "Correo"
+msgstr "Email"
+
+#: .\templates\home.html:319
+msgid "Teléfono"
+msgstr "Phone"
+
+#: .\templates\home.html:330
+msgid "Tipo de Servicio"
+msgstr "Type of Service"
+
+#: .\templates\home.html:341
+msgid "Mensaje"
+msgstr "Messages"
+
+#: .\templates\home.html:346
+msgid "Envienos su Sugerencia"
+msgstr "Send us your suggestion"
+
+#: .\templates\home.html:365 .\templates\navbar.html:48
+#: .\templates\navbar_video.html:50
+msgid "Testimonios"
+msgstr "Testimonies"
+
+#: .\templates\home.html:366
+msgid "Principales Clientes!"
+msgstr "Main Clients!"
+
+#: .\templates\home.html:369
+msgid ""
+"Estos son algunos de nuestros principales clientes, con los cuales hemos "
+"tenido una relación estrecha producto de la calidad de nuestros servicios y "
+"su aceptación."
+msgstr "These are some of our main clients, with whom we have had a close relationship as a result of the quality of our services and their acceptance."
+
+
+#: .\templates\home.html:377
+msgid "Clientes Satisfechos"
+msgstr "Satisfied Customers"
+
+#: .\templates\home.html:384
+msgid "Projectos Ejecutados"
+msgstr "Projects Executed"
+
+#: .\templates\navbar.html:35 .\templates\navbar_video.html:37
+msgid "Inicio"
+msgstr "Home"
+
+#: .\templates\navbar.html:43 .\templates\navbar_video.html:45
+msgid "Otros"
+msgstr "Others"
+
+#: .\templates\navbar.html:46 .\templates\navbar_video.html:48
+#: .\templates\team.html:11
+msgid "Nuestro Equipo"
+msgstr "Our Team"
+
+#: .\templates\navbar.html:47 .\templates\navbar_video.html:49
+msgid "Proyectos"
+msgstr "Projects"
+
+#: .\templates\projectos.html:11
+#, fuzzy
+#| msgid "Nuestro Equipo"
+msgid "Nuestro trabajo"
+msgstr "Our Team"
+
+#: .\templates\projectos.html:12
+#, fuzzy
+#| msgid "Nuestros Servicios"
+msgid "Nuestros Principales Proyectos"
+msgstr "Our Servies"
+
+#: .\templates\projectos.html:20
+msgid "Todos"
+msgstr "All"
+
+#: .\templates\projectos.html:21 .\templates\projectos.html:33
+#: .\templates\projectos.html:35
+msgid "Mantenimiento"
+msgstr "Maintenance"
+
+#: .\templates\projectos.html:22 .\templates\projectos.html:48
+#: .\templates\projectos.html:50
+msgid "Construcción"
+msgstr "Construction"
+
+#: .\templates\projectos.html:23 .\templates\projectos.html:63
+#: .\templates\projectos.html:65
+msgid "Reparación"
+msgstr "Reparation"
+
+#: .\templates\projectos.html:24 .\templates\projectos.html:77
+#: .\templates\projectos.html:79
+msgid "Montaje"
+msgstr "Assembly"
+
+#: .\templates\team.html:12
+msgid "Especialistas Principales"
+msgstr "Leading Specialists"
+
+#: .\templates\team.html:17
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "          <p class=\"mb-0\" style=\"text-align: justify;\">\n"
+#| "            Contamos en nuestro equipo con Ingenieros Civiles, "
+#| "Arquitectos, Ingenieros Hidráulicos, Técnicos, económicos, asesores "
+#| "Jurídicos, en fin, todo un grupo que compartimos las mismas ideas e "
+#| "intereses.          </p>\n"
+#| "          "
+msgid ""
+"Contamos en nuestro equipo con Ingenieros Civiles, Arquitectos, Ingenieros "
+"Hidráulicos, Técnicos, económicos, asesores Jurídicos, en fin, todo un grupo "
+"que compartimos las mismas ideas e intereses."
+msgstr ""
+"We have in our team Civil Engineers, Architects, Hydraulic Engineers,"
+"Technicians, Economic, Legal Advisors, in short, a whole group that shares "
+"the same ideas and interests."
+
+#: .\templates\team.html:26 .\templates\team.html:35 .\templates\team.html:44
+msgid "Nombre Completo"
+msgstr "Full Name"
+
+#: .\templates\team.html:27 .\templates\team.html:36 .\templates\team.html:45
+msgid "Especialidad"
+msgstr "Speciality"
+
+#: .\templates\topbar.html:20
+msgid "Lunes"
+msgstr "Monday"
+
+#: .\templates\topbar.html:20
+msgid "Viernes"
+msgstr "Freeday"
